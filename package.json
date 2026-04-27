@@ -1,0 +1,10 @@
+{
+    "name": "social-media-app-clone",
+    "version": "1.0.0",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {},
+    "devDependencies": {
+        "shadow-cljs": "3.4.5"
+    }
+}

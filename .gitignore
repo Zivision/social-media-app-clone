@@ -14,6 +14,28 @@ pom.xml.asc
 .nrepl-port
 .cpcache/
 
+# shadow-cljs
+node_modules/
+public/js
+
+/target
+/checkouts
+/src/gen
+
+pom.xml
+pom.xml.asc
+*.iml
+*.jar
+*.log
+.shadow-cljs
+.idea
+.lein-*
+.nrepl-*
+.DS_Store
+
+.hgignore
+.hg/
+
 # Rest of list
 .envrc
 .direnv/

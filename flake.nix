@@ -29,6 +29,9 @@
           # JDK Version
           jdk25
 
+          # Nodejs
+          nodejs_24
+
         ];
         env = {
           # Point Clojure to local project
