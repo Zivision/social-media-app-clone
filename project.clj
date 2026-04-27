@@ -4,8 +4,10 @@
   :dependencies [[org.clojure/clojure "1.12.2"]
                  [ring/ring-core "1.15.4"]
                  [ring/ring-jetty-adapter "1.15.4"]
-                 [ring/ring-defaults "0.7.0"]
-                 [metosin/reitit "0.10.1"]]
+                 [metosin/reitit "0.10.1"]
+                 [metosin/reitit-core "0.10.1"]
+                 [metosin/muuntaja "0.6.11"]
+                 [metosin/malli "0.20.1"]]
 
   :main ^:skip-aot social-media-app-clone.core
   :target-path "target/%s"

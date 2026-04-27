@@ -1,7 +1,9 @@
 (ns social-media-app-clone.core
+  (:require [ring.adapter.jetty :refer [run-jetty]]
+            [social-media-app-clone.handler :refer [app]])
   (:gen-class))
 
 (defn -main
-  "I don't do a whole lot ... yet."
+  "Run the API."
   [& args]
-  (println "Hello, World!"))
+  (run-jetty app {:port 3000 :join? true}))
