@@ -6,5 +6,7 @@
  {:app {:target :browser
         :output-dir "resources/public/js"
         :asset-path "/js"
-        :modules {:main {:init-fn my-app.core/init}}
-        :devtools {:after-load my-app.core/init}}}}
+        :modules {:main {:init-fn social-media-app-clone.core/init}}
+        :js-options {:resolve {"react"     {:npm-package "react"}
+                               "react-dom" {:npm-package "react-dom"}}}
+        :devtools {:after-load social-media-app-clone.core/init}}}}

@@ -16,7 +16,6 @@ pom.xml.asc
 
 # shadow-cljs
 node_modules/
-public/js
 
 /target
 /checkouts
@@ -37,5 +36,6 @@ pom.xml.asc
 .hg/
 
 # Rest of list
+resources/public/js
 .envrc
 .direnv/
